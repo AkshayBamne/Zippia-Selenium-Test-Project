@@ -4,7 +4,8 @@
   "description": "This is selenium test project for Zippia",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx wdio run wdio.conf.js",
+    "report": "allure serve reports/allure-results"
   },
   "repository": {
     "type": "git",
