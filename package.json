@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AkshayBamne/Zippia-Selenium-Test-Project/issues"
   },
-  "homepage": "https://github.com/AkshayBamne/Zippia-Selenium-Test-Project#readme"
+  "homepage": "https://github.com/AkshayBamne/Zippia-Selenium-Test-Project#readme",
+  "devDependencies": {
+    "webdriverio": "^7.16.0"
+  }
 }
