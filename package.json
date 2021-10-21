@@ -1,0 +1,19 @@
+{
+  "name": "zippia-selenium-test-project",
+  "version": "1.0.0",
+  "description": "This is selenium test project for Zippia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkshayBamne/Zippia-Selenium-Test-Project.git"
+  },
+  "author": "Akshay Bamne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkshayBamne/Zippia-Selenium-Test-Project/issues"
+  },
+  "homepage": "https://github.com/AkshayBamne/Zippia-Selenium-Test-Project#readme"
+}
