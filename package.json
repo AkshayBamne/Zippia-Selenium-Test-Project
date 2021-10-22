@@ -29,11 +29,6 @@
     "chai": "^4.3.4",
     "chai-webdriverio": "^1.0.0",
     "chromedriver": "^94.0.0",
-    "local-runner": "^0.1.1-alpha",
-    "ts-node": "^10.3.1",
-    "typescript": "^4.4.4",
-    "wdio-chromedriver-service": "^7.2.2",
-    "webdriverio": "^7.16.0",
     "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
     "eslint-config-standard": "^16.0.3",
@@ -42,7 +37,12 @@
     "eslint-plugin-promise": "^5.1.0",
     "grunt": "^1.4.1",
     "grunt-cli": "^1.4.3",
-    "grunt-mocha": "^1.2.0"
+    "grunt-mocha": "^1.2.0",
+    "local-runner": "^0.1.1-alpha",
+    "ts-node": "^10.3.1",
+    "typescript": "^4.4.4",
+    "wdio-chromedriver-service": "^7.2.2",
+    "webdriverio": "^7.16.0"
   },
   "dependencies": {
     "@types/mocha": "^9.0.0",

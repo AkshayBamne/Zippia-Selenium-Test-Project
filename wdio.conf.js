@@ -62,7 +62,15 @@ exports.config = {
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
-    }],
+    },
+    // {
+
+    //     maxInstances: 5,
+    //     //
+    //     browserName: 'firefox',
+    // },
+
+],
     //
     // ===================
     // Test Configurations
@@ -136,8 +144,8 @@ exports.config = {
         
         'allure', {outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: true,}]
-        ],
+        disableWebdriverScreenshotsReporting: false
+    }]],
     
     //
     // Options to be passed to Mocha.
@@ -237,10 +245,10 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
-        if (!passed) {
+    afterTest: async (test, context, { error, result, duration, passed, retries }) => {
+        // if (error) {
             await browser.takeScreenshot();
-        }
+        // }
     },
 
 
