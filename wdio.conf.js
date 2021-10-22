@@ -70,7 +70,7 @@ exports.config = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: 'error',
     //
     // Set specific log levels per logger
     // loggers:
@@ -94,7 +94,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://www.zippia.com/project-manager-jobs/',
+    baseUrl: 'https://www.zippia.com',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -132,19 +132,22 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec',[
+    reporters: [[
         
         'allure', {outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
         disableWebdriverScreenshotsReporting: true,}]
-        ,'video','html'],
+        ],
     
     //
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000
+        timeout: 60000,
+        // require: ['@babel/register']
+        // require: ['@babel/register', './test/helpers/common.js']
+        require: ['@babel/register']
     },
     //
     // =====
@@ -208,6 +211,8 @@ exports.config = {
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
     beforeTest: function (test) {
+
+        browser.maximizeWindow()
         const chai = require('chai')
         const chaiWebdriver = require('chai-webdriverio').default
         chai.use(chaiWebdriver(browser))
@@ -215,7 +220,7 @@ exports.config = {
         global.assert = chai.assert
         global.should = chai.should
         global.expect = chai.expect
-
+        
     },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling

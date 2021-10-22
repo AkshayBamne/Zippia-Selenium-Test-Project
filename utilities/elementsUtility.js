@@ -1,7 +1,7 @@
 /** const Page = require('./page');  **/
 
-const { assert } = require("chai");
-const { default: $ } = require("webdriverio/build/commands/browser/$");
+import { assert } from "chai";
+import { default as $ } from "webdriverio/build/commands/browser/$";
 
 /**
  * sub page containing specific selectors and methods for a specific page
@@ -110,4 +110,4 @@ class ElementUtility {
      }
 }
 
-module.exports = new ElementUtility();
+export default new ElementUtility();

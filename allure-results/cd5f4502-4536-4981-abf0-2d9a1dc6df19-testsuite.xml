@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634882520705' stop='1634882521165'>
+    <name>Verifying the browser is launching for the first time</name>
+    <title>Verifying the browser is launching for the first time</title>
+    <test-cases>
+        <test-case start='1634882520707' status='passed' stop='1634882521157'>
+            <name>First test to launch chrome browser</name>
+            <title>First test to launch chrome browser</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
