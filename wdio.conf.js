@@ -144,7 +144,9 @@ exports.config = {
         
         'allure', {outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: false
+        // disableWebdriverStepsReporting: false,
+        disableWebdriverScreenshotsReporting: false,
+        addConsoleLogs: true        
     }]],
     
     //
