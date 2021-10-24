@@ -1,7 +1,7 @@
 /** const Page = require('./page');  **/
 
-import { assert } from "chai";
-import { default as $ } from "webdriverio/build/commands/browser/$";
+// import { assert } from "chai";
+// import { default as $ } from "webdriverio/build/commands/browser/$";
 
 /**
  * sub page containing specific selectors and methods for a specific page
@@ -23,9 +23,13 @@ class ElementUtility {
         return element.getText();
     }
 
-    doGetPageTitle(pageTitle){
-        browser.waitUntil(function(){
-            return (browser.getTitle() === pageTitle)
+    doGetPageTitle (){
+        browser.waitUntil(async () =>{
+
+            const title = browser.getTitle();
+            console.log('Title of page is:'+title);
+            // return (browser.getTitle() === pageTitle)  
+
         }, 6000, 'Title is not displayed after the given time')
 
         return browser.getTitle();
@@ -103,11 +107,12 @@ class ElementUtility {
         assert.equal(true, element2.isExisting());
      }
 
-     waitUntil(){
+     waitUntil(element){
          browser.waitUntil(function(){
              return element.isDisplayed() === true
-         }, 6000, 'element is not displayed after the givenm time')
+         }, 10000, 'element is not displayed after the given time')
      }
 }
 
-export default new ElementUtility();
+// export default new ElementUtility();
+module.exports = new ElementUtility()

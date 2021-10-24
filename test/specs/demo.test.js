@@ -1,5 +1,7 @@
+const elementsUtility = require('../utilities/elementsUtility');
+const overview = require('../pageobjects/overview.page')
 
-describe("Verifying the browser is launching for the first time", function (){
+describe("Verifying the browser is launching for the first time", async () => {
 
     it("First test to launch chrome browser", async () => {
 
@@ -12,4 +14,5 @@ describe("Verifying the browser is launching for the first time", function (){
         assert.equal(await titleText.getText(),'PROJECT MANAGER');
                 
     });
+    
 });
