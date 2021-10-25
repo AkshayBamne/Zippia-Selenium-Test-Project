@@ -1,10 +1,46 @@
 # Zippia-Selenium-Test-Project
 Selenium test project for Zippia
 
-1) To execute this project on local machine enter following command to terminal:
-npm run test
-2) To view allure reports on browser enter following command to terminal:
+*Prerequisite:*
+1) Latest chrome browser: Make sure to have latest chrome browser installed on your local machine (Since the current framework configured to execute on chrome browser but we can have multiple browsers configuration by adding few configuration steps with which we can achieve cross browser testing.)
+2) Latest node.js: Install from the site - https://nodejs.org/en/ take the LTS version based on your Operating system (Once node is installed check node version by firing command to the terminal or cmd *node -version*)
+
+
+*Run Some Sample Tests:*
+
+To execute the entire test suite in local machine, you can use below mentioned option: 
+1) To execute this project on local machine enter mentioned command to terminal:
+npm run test or npm test
+2) To view allure reports on browser enter mentioned command to terminal:
 npm run report
 
-Design Pattern used: Page Object Model (POM) 
-“A page object is an object-oriented class that serves as an interface to a page of your [application under test]. The tests then use the methods of this page object class whenever they need to interact with the UI of that page. The benefit is that if the UI changes for the page, the tests themselves don’t need to change, only the code within the page object needs to change. Subsequently all changes to support that new UI are located in one place.” — Seleniumhq.org
+
+*Tech Stack:*
+1) Programming Language: JavaScript
+2) Testing Framework: Mocha JavaScript Framework
+3) Assertion: Chai library
+4) Design pattern: Page Object Model (POM)
+5) Reports: Allure reports
+6) Source Code Management: Git
+
+
+*Mocha JavaScript framework:*
+
+Tests are written in the Mocha framework. See below screenshot and More about Mocha can be found at https://mochajs.org/
+
+![image](https://user-images.githubusercontent.com/43804328/138686062-f2078764-9eb5-4c9e-80dd-c9f5505327f9.png)
+
+
+
+*Design Pattern used: Page Object Model (POM):* A way of representing interactions with a page or component. It Helps to be more maintainable and easier to read.
+
+Within your web app's UI there are areas that your tests interact with. A Page Object simply models these as objects within the test code. This reduces the amount of duplicated code and means that if the UI changes, the fix need only be applied in one place. In other wards one of the challenges of writing test automation is keeping your [selectors] (classes, id's, or xpath's etc.) up to date with the latest version of your code. The next challenge is to keep the code you write nice and [DRY] (Don't Repeat Yourself). The page object pattern helps us accomplish this in one solution. Instead of including our selectors in Spec file (in Mocha), we instead place them in a <pagename>.js file where we can manage all these selectors and methods together. Your test file should only call the test methods.
+
+![image](https://user-images.githubusercontent.com/43804328/138686158-5d5cfe4f-2d1b-41b5-8c36-0767e914d94d.png)
+	
+*Allure Reports:*
+
+The Allure Reporter creates Allure test reports which is an HTML generated website with all necessary information to debug your test results and take a look on error screenshots. 
+![image](https://user-images.githubusercontent.com/43804328/138686329-6a9d4551-4942-480a-8e1a-e9605a93e240.png)
+
+![image](https://user-images.githubusercontent.com/43804328/138686502-5e246890-9b43-4dac-a894-2e1b2bd96968.png)
