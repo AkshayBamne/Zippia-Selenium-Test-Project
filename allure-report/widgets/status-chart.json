@@ -1,0 +1,171 @@
+[ {
+  "uid" : "8228a777cc712bae",
+  "name" : "Verifying Location filter for Average Project Manager Salary component",
+  "time" : {
+    "start" : 1635177196626,
+    "stop" : 1635177216147,
+    "duration" : 19521
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "786f22d7c24f633e",
+  "name" : "Getting Salary Page Title",
+  "time" : {
+    "start" : 1635177134112,
+    "stop" : 1635177158728,
+    "duration" : 24616
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9844aa9596d9c5d6",
+  "name" : "Verifying Project Manager Compare Jobs filter",
+  "time" : {
+    "start" : 1635177000105,
+    "stop" : 1635177013660,
+    "duration" : 13555
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54218c7eab27ae09",
+  "name" : "Clearing Project Manager Compare Jobs filter",
+  "time" : {
+    "start" : 1635177035766,
+    "stop" : 1635177068399,
+    "duration" : 32633
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "449102102f3e07f9",
+  "name" : "Getting Gender wise percentage for Project Manager",
+  "time" : {
+    "start" : 1635176983012,
+    "stop" : 1635177000104,
+    "duration" : 17092
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46f05b00d5d21d0f",
+  "name" : "Verifying Average Project Manager Salary component displayed fields",
+  "time" : {
+    "start" : 1635177178318,
+    "stop" : 1635177196626,
+    "duration" : 18308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5337c46690eea18",
+  "name" : "Moving to Project Manager Demographics component",
+  "time" : {
+    "start" : 1635176954877,
+    "stop" : 1635176970339,
+    "duration" : 15462
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56639a8315092faf",
+  "name" : "Verifying Top Colleges List for Project Managers",
+  "time" : {
+    "start" : 1635177093917,
+    "stop" : 1635177107180,
+    "duration" : 13263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "791a5921f92cb6d",
+  "name" : "Verifying Education filter for Average Project Manager Salary component",
+  "time" : {
+    "start" : 1635177240240,
+    "stop" : 1635177259320,
+    "duration" : 19080
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "439844df24a6765b",
+  "name" : "Verifying Project Manager Demographics component Title",
+  "time" : {
+    "start" : 1635176970340,
+    "stop" : 1635176983011,
+    "duration" : 12671
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec5ffc7258328524",
+  "name" : "Moving to Top Colleges for Project Managers component",
+  "time" : {
+    "start" : 1635177068400,
+    "stop" : 1635177080869,
+    "duration" : 12469
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32914f8ce7656e91",
+  "name" : "Getting Career Main page Title",
+  "time" : {
+    "start" : 1635176925979,
+    "stop" : 1635176954876,
+    "duration" : 28897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14c90b7ad2c4a434",
+  "name" : "Verifying Industry filter for Average Project Manager Salary component",
+  "time" : {
+    "start" : 1635177216148,
+    "stop" : 1635177240239,
+    "duration" : 24091
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "469ca7b2863518cf",
+  "name" : "Comparing Jobs with Project Manager through Compare Jobs filter",
+  "time" : {
+    "start" : 1635177013660,
+    "stop" : 1635177035765,
+    "duration" : 22105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "643e234d2c3fd021",
+  "name" : "Verifying Top Colleges Details",
+  "time" : {
+    "start" : 1635177107181,
+    "stop" : 1635177122141,
+    "duration" : 14960
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fbd3696e08dba4ee",
+  "name" : "Moving to Average Project Manager Salary Component",
+  "time" : {
+    "start" : 1635177158729,
+    "stop" : 1635177178318,
+    "duration" : 19589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c95de4c385d5296",
+  "name" : "Verifying Top Colleges for Project Managers Title",
+  "time" : {
+    "start" : 1635177080870,
+    "stop" : 1635177093916,
+    "duration" : 13046
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

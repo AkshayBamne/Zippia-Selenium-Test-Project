@@ -1,0 +1,253 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1635176925976' stop='1635177122144'>
+    <name>Career Main Page</name>
+    <title>Career Main Page</title>
+    <test-cases>
+        <test-case start='1635176925979' status='passed' stop='1635176954876'>
+            <name>Getting Career Main page Title</name>
+            <title>Getting Career Main page Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='baf9d9bb-5df1-4cd8-9370-7aa4b6cadfc3-attachment.html' type='text/html' size='258'/>
+                <attachment title='Screenshot' source='a9cf5174-c034-4cf0-8681-29acd7affaf4-attachment.png' type='image/png' size='72887'/>
+                <attachment title='Console Logs' source='815a7408-4845-42be-ba0c-2e3d81660220-attachment.html' type='text/html' size='258'/>
+            </attachments>
+        </test-case>
+        <test-case start='1635176954877' status='passed' stop='1635176970339'>
+            <name>Moving to Project Manager Demographics component</name>
+            <title>Moving to Project Manager Demographics component</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='b33730f5-9913-4976-aefa-97b948bfe1c1-attachment.html' type='text/html' size='258'/>
+                <attachment title='Screenshot' source='fbdb65e0-d8fa-421c-9203-1e19bcb3fb5a-attachment.png' type='image/png' size='22929'/>
+                <attachment title='Console Logs' source='21f3a979-62d9-41e2-b01a-80f0268e9715-attachment.html' type='text/html' size='318'/>
+            </attachments>
+        </test-case>
+        <test-case start='1635176970340' status='passed' stop='1635176983011'>
+            <name>Verifying Project Manager Demographics component Title</name>
+            <title>Verifying Project Manager Demographics component Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='48fc10c5-8541-4243-8899-a1c6b1fc5f15-attachment.html' type='text/html' size='258'/>
+                <attachment title='Screenshot' source='6e760686-5a67-44f7-b1e5-d918e65af178-attachment.png' type='image/png' size='22929'/>
+                <attachment title='Console Logs' source='16f54ee6-7e6f-4213-9786-5e970e1ea3fb-attachment.html' type='text/html' size='373'/>
+            </attachments>
+        </test-case>
+        <test-case start='1635176983012' status='passed' stop='1635177000104'>
+            <name>Getting Gender wise percentage for Project Manager</name>
+            <title>Getting Gender wise percentage for Project Manager</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='52a71da1-b0c9-410a-89f8-88f1ec50e5a9-attachment.html' type='text/html' size='258'/>
+                <attachment title='Screenshot' source='6bb61afe-71aa-4019-8f52-f5ac02e9dcc8-attachment.png' type='image/png' size='22929'/>
+                <attachment title='Console Logs' source='1ae5dd79-50cf-49ee-b22f-d7f8fe841403-attachment.html' type='text/html' size='457'/>
+            </attachments>
+        </test-case>
+        <test-case start='1635177000105' status='passed' stop='1635177013660'>
+            <name>Verifying Project Manager Compare Jobs filter</name>
+            <title>Verifying Project Manager Compare Jobs filter</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='1b71e520-84f7-4783-9a2c-bee9fcd0312e-attachment.html' type='text/html' size='258'/>
+                <attachment title='Screenshot' source='9b99e0a5-de84-4c48-8055-41c0b2834c54-attachment.png' type='image/png' size='28856'/>
+                <attachment title='Screenshot' source='aa3290cd-84a6-4bc9-bdb5-fafc31510104-attachment.png' type='image/png' size='28782'/>
+                <attachment title='Console Logs' source='35c39b72-1e32-43f9-9865-c27ab6fd8bc8-attachment.html' type='text/html' size='364'/>
+            </attachments>
+        </test-case>
+        <test-case start='1635177013660' status='passed' stop='1635177035765'>
+            <name>Comparing Jobs with Project Manager through Compare Jobs filter</name>
+            <title>Comparing Jobs with Project Manager through Compare Jobs filter</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='c71e0329-e06e-440f-826b-2f3c7ff52483-attachment.html' type='text/html' size='258'/>
+                <attachment title='Screenshot' source='3824c316-0825-484c-9f8b-f394b73829e0-attachment.png' type='image/png' size='28386'/>
+                <attachment title='Screenshot' source='b39100ce-8441-47cd-b1b3-f11d676c76a5-attachment.png' type='image/png' size='27976'/>
+                <attachment title='Console Logs' source='a6afab1b-1c51-42b3-8c9c-52d18cd3c4f2-attachment.html' type='text/html' size='408'/>
+            </attachments>
+        </test-case>
+        <test-case start='1635177035766' status='passed' stop='1635177068399'>
+            <name>Clearing Project Manager Compare Jobs filter</name>
+            <title>Clearing Project Manager Compare Jobs filter</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='f5538530-b3cf-46cd-be30-1d320d053dcb-attachment.html' type='text/html' size='258'/>
+                <attachment title='Screenshot' source='1850a85a-911a-4243-841e-573afdaef1fb-attachment.png' type='image/png' size='28856'/>
+                <attachment title='Screenshot' source='fcc924e8-d87a-4464-812a-65f0b55a700b-attachment.png' type='image/png' size='28468'/>
+                <attachment title='Screenshot' source='ecfc643a-5055-44c0-a759-14e61699cda2-attachment.png' type='image/png' size='28782'/>
+                <attachment title='Console Logs' source='f022468b-0739-4bda-a957-9a39e04cb0bd-attachment.html' type='text/html' size='565'/>
+            </attachments>
+        </test-case>
+        <test-case start='1635177068400' status='passed' stop='1635177080869'>
+            <name>Moving to Top Colleges for Project Managers component</name>
+            <title>Moving to Top Colleges for Project Managers component</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='66a273ff-5b6d-4d1f-a6e7-7b60871090c2-attachment.html' type='text/html' size='258'/>
+                <attachment title='Screenshot' source='3187deb4-1da2-4a26-9004-5ff3d4f189de-attachment.png' type='image/png' size='49870'/>
+                <attachment title='Console Logs' source='9b5df262-5232-43b7-90c4-6530d4f0aa0f-attachment.html' type='text/html' size='323'/>
+            </attachments>
+        </test-case>
+        <test-case start='1635177080870' status='passed' stop='1635177093916'>
+            <name>Verifying Top Colleges for Project Managers Title</name>
+            <title>Verifying Top Colleges for Project Managers Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='dc01f5ce-8ff2-4362-9eca-68c89ea5664d-attachment.html' type='text/html' size='258'/>
+                <attachment title='Screenshot' source='55cf2ce0-dd1a-4256-a2b6-17144c619b05-attachment.png' type='image/png' size='49870'/>
+                <attachment title='Console Logs' source='031d1183-0a5b-4a01-bf91-6bfcff60b13a-attachment.html' type='text/html' size='373'/>
+            </attachments>
+        </test-case>
+        <test-case start='1635177093917' status='passed' stop='1635177107180'>
+            <name>Verifying Top Colleges List for Project Managers</name>
+            <title>Verifying Top Colleges List for Project Managers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='25dfbe3a-a308-4830-bc5c-0249b028c462-attachment.html' type='text/html' size='258'/>
+                <attachment title='Screenshot' source='6d1aae97-28ae-4d64-b37d-058dd79f6b47-attachment.png' type='image/png' size='49870'/>
+                <attachment title='Console Logs' source='472e5e02-4034-46d2-86da-712d3ffa34e9-attachment.html' type='text/html' size='372'/>
+            </attachments>
+        </test-case>
+        <test-case start='1635177107181' status='passed' stop='1635177122141'>
+            <name>Verifying Top Colleges Details</name>
+            <title>Verifying Top Colleges Details</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Console Logs' source='fc89af1d-f740-42d5-8748-d8eb63150be0-attachment.html' type='text/html' size='258'/>
+                <attachment title='Screenshot' source='51edf977-faa8-4900-b42d-9312f6733ed7-attachment.png' type='image/png' size='67303'/>
+                <attachment title='Console Logs' source='f95aa77e-069a-4630-808e-9ccc3cf60b16-attachment.html' type='text/html' size='354'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

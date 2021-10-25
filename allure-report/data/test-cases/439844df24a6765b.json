@@ -1,0 +1,86 @@
+{
+  "uid" : "439844df24a6765b",
+  "name" : "Verifying Project Manager Demographics component Title",
+  "fullName" : "Career Main Page.Verifying Project Manager Demographics component Title",
+  "historyId" : "157a89196a2f420a1dbfaa719982274",
+  "time" : {
+    "start" : 1635176970340,
+    "stop" : 1635176983011,
+    "duration" : 12671
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "349576b3969ef2d",
+      "name" : "Console Logs",
+      "source" : "349576b3969ef2d.html",
+      "type" : "text/html",
+      "size" : 258
+    }, {
+      "uid" : "fafe788cd1de018e",
+      "name" : "Screenshot",
+      "source" : "fafe788cd1de018e.png",
+      "type" : "image/png",
+      "size" : 22929
+    }, {
+      "uid" : "1458e14cdcea3820",
+      "name" : "Console Logs",
+      "source" : "1458e14cdcea3820.html",
+      "type" : "text/html",
+      "size" : 373
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying Project Manager Demographics component Title"
+  }, {
+    "name" : "package",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "439844df24a6765b.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

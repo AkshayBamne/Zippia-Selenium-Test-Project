@@ -1,0 +1,86 @@
+{
+  "uid" : "32914f8ce7656e91",
+  "name" : "Getting Career Main page Title",
+  "fullName" : "Career Main Page.Getting Career Main page Title",
+  "historyId" : "306277686c9e93f4629a2639b1d72fd2",
+  "time" : {
+    "start" : 1635176925979,
+    "stop" : 1635176954876,
+    "duration" : 28897
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9726bfbe4db9cf93",
+      "name" : "Console Logs",
+      "source" : "9726bfbe4db9cf93.html",
+      "type" : "text/html",
+      "size" : 258
+    }, {
+      "uid" : "6b69f97123206ae0",
+      "name" : "Screenshot",
+      "source" : "6b69f97123206ae0.png",
+      "type" : "image/png",
+      "size" : 72887
+    }, {
+      "uid" : "7c2c50f9c5ab9791",
+      "name" : "Console Logs",
+      "source" : "7c2c50f9c5ab9791.html",
+      "type" : "text/html",
+      "size" : 258
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Getting Career Main page Title"
+  }, {
+    "name" : "package",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32914f8ce7656e91.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}
