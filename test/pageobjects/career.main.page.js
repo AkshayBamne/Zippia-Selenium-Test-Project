@@ -1,4 +1,4 @@
-const { assert, expect } = require('chai');
+const { assert, expect, AssertionError } = require('chai');
 const elementsUtility = require('../utilities/elementsUtility');
 
 class OverviewPage {
@@ -13,7 +13,7 @@ class OverviewPage {
 
     get jobTitle() { return $('(//input[@name="jobTitle" and @placeholder="Job Title"])[1]') } 
 
-    get canelButton() { return $('(//*[@class="filter-footer"]/*[text()="Clear"])[1]') } 
+    get cancelButton() { return $('(//*[@class="filter-footer"]/*[text()="Clear"])[1]') } 
 
     get applyButton() { return $('(//*[@class="filter-footer"]/*[text()="Apply"])[1]') } 
 
@@ -102,7 +102,7 @@ class OverviewPage {
         const filterHeader = await $('.filter-header');
         expect(await filterHeader.getText()).to.be.equal('Compare Jobs');
 
-        await this.canelButton.isDisplayed();        
+        await this.cancelButton.isDisplayed();        
         await this.applyButton.isDisplayed();
         await this.jobTitle.isDisplayed();          
         
@@ -118,6 +118,24 @@ class OverviewPage {
         await browser.pause(7000);
         console.log('Adding Job Role through Compare Jobs filter');    
 
+    }
+
+    async clearingCopareJobsFilter() { 
+
+        const updatedFilter = await $('//*[text()="Project Manager Demographics"]/following::*[contains(@class,"button active")]');
+        await updatedFilter.waitForExist({ timeout: 5000 });
+        await updatedFilter.click();
+
+        await this.cancelButton.waitForExist({ timeout: 5000 });
+        await this.cancelButton.click();
+        await browser.refresh();
+        await this.moveToPMDemographicsComponent();
+        await this.verifyPMCompareJobsFilter();
+        // assert(await $$('.filter-option').getText() === null);
+        let filteroption1 = await $('.filter-option');       
+        console.log(await filteroption1.isExisting());      
+        console.log('Clearing Project Manager Compare Jobs filter');
+    
     }
 
     async moveToTopCollegesComponent() {
@@ -157,11 +175,11 @@ class OverviewPage {
 
         await $('.popup-header').waitForExist({ timeout: 5000 });
 
-        const actualCollegeName = await $('//*[contains(@class,"college-information")]/h2').getText();
-        const expectedCollegeName = await this.topCollegesList[0].getText();
-        expect(actualCollegeName.toLowerCase() === expectedCollegeName.toLowerCase());      
+        const actualCollegeName1 = await $('//*[contains(@class,"college-information")]/h2').getText();
+        const expectedCollegeName1 = await this.topCollegesList[0].getText();
+        expect(actualCollegeName1.toLowerCase() === expectedCollegeName1.toLowerCase());      
         
-        await $('.popup-close-icon').click();
+        // await $('.popup-close-icon').click();
         console.log('Verifying Top Colleges Details');
     
     }
