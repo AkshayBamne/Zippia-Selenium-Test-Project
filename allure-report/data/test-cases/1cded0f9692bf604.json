@@ -1,0 +1,86 @@
+{
+  "uid" : "1cded0f9692bf604",
+  "name" : "Moving to Average Project Manager Salary Component",
+  "fullName" : "Salary Page.Moving to Average Project Manager Salary Component",
+  "historyId" : "7dc029257d48dc435e3e688767721018",
+  "time" : {
+    "start" : 1635166627311,
+    "stop" : 1635166646671,
+    "duration" : 19360
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "79071d5e0f786312",
+      "name" : "Console Logs",
+      "source" : "79071d5e0f786312.html",
+      "type" : "text/html",
+      "size" : 265
+    }, {
+      "uid" : "3b0e2c3a35bf475a",
+      "name" : "Screenshot",
+      "source" : "3b0e2c3a35bf475a.png",
+      "type" : "image/png",
+      "size" : 86502
+    }, {
+      "uid" : "3b46be5a7b9494e5",
+      "name" : "Console Logs",
+      "source" : "3b46be5a7b9494e5.html",
+      "type" : "text/html",
+      "size" : 359
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Salary Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Salary Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Moving to Average Project Manager Salary Component"
+  }, {
+    "name" : "package",
+    "value" : "Salary Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1cded0f9692bf604.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

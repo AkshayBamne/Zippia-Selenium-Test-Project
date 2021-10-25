@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npx wdio run wdio.conf.js",
     "update": "npx npm-check-updates --upgrade && npm install && npm audit fix",
-    "report": "allure serve allure-results"
+    "report": "allure serve allure-results",
+    "report1": "allure generate ./allure-results/ --clean && allure serve allure-results"
   },
   "repository": {
     "type": "git",

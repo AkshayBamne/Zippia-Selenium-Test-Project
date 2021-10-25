@@ -1,0 +1,86 @@
+{
+  "uid" : "e25419f4d7ab0017",
+  "name" : "Getting Salary Page Title",
+  "fullName" : "Salary Page.Getting Salary Page Title",
+  "historyId" : "49ea639bab71137c4d26a399e0aaecb1",
+  "time" : {
+    "start" : 1635166606803,
+    "stop" : 1635166627309,
+    "duration" : 20506
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4ba14e648647d7d6",
+      "name" : "Console Logs",
+      "source" : "4ba14e648647d7d6.html",
+      "type" : "text/html",
+      "size" : 265
+    }, {
+      "uid" : "9810ee60af157ea7",
+      "name" : "Screenshot",
+      "source" : "9810ee60af157ea7.png",
+      "type" : "image/png",
+      "size" : 61921
+    }, {
+      "uid" : "24239ef761ccaf19",
+      "name" : "Console Logs",
+      "source" : "24239ef761ccaf19.html",
+      "type" : "text/html",
+      "size" : 265
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Salary Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Salary Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Getting Salary Page Title"
+  }, {
+    "name" : "package",
+    "value" : "Salary Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e25419f4d7ab0017.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

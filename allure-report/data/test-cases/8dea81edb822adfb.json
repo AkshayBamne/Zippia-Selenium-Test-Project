@@ -1,0 +1,86 @@
+{
+  "uid" : "8dea81edb822adfb",
+  "name" : "Getting Gender wise percentage for Project Manager",
+  "fullName" : "Career Main Page.Getting Gender wise percentage for Project Manager",
+  "historyId" : "fe576033c5f58125a43a377e9cfb178a",
+  "time" : {
+    "start" : 1635166655514,
+    "stop" : 1635166673498,
+    "duration" : 17984
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7105549eceef36be",
+      "name" : "Console Logs",
+      "source" : "7105549eceef36be.html",
+      "type" : "text/html",
+      "size" : 258
+    }, {
+      "uid" : "b2ae556b33f97c56",
+      "name" : "Screenshot",
+      "source" : "b2ae556b33f97c56.png",
+      "type" : "image/png",
+      "size" : 22929
+    }, {
+      "uid" : "3d73f80691b6dc9f",
+      "name" : "Console Logs",
+      "source" : "3d73f80691b6dc9f.html",
+      "type" : "text/html",
+      "size" : 457
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Getting Gender wise percentage for Project Manager"
+  }, {
+    "name" : "package",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8dea81edb822adfb.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

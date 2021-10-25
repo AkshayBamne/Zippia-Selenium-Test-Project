@@ -1,0 +1,92 @@
+{
+  "uid" : "fc26adf257f4513c",
+  "name" : "Verifying Project Manager Compare Jobs filter",
+  "fullName" : "Career Main Page.Verifying Project Manager Compare Jobs filter",
+  "historyId" : "1d5298d1eff0498f780426f39464fae3",
+  "time" : {
+    "start" : 1635166673506,
+    "stop" : 1635166686588,
+    "duration" : 13082
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2d63307a0c70990e",
+      "name" : "Console Logs",
+      "source" : "2d63307a0c70990e.html",
+      "type" : "text/html",
+      "size" : 258
+    }, {
+      "uid" : "2b877f67ee110ee8",
+      "name" : "Screenshot",
+      "source" : "2b877f67ee110ee8.png",
+      "type" : "image/png",
+      "size" : 28436
+    }, {
+      "uid" : "fe07b2112b93bda9",
+      "name" : "Screenshot",
+      "source" : "fe07b2112b93bda9.png",
+      "type" : "image/png",
+      "size" : 28782
+    }, {
+      "uid" : "409b5321a4e2e4f6",
+      "name" : "Console Logs",
+      "source" : "409b5321a4e2e4f6.html",
+      "type" : "text/html",
+      "size" : 364
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying Project Manager Compare Jobs filter"
+  }, {
+    "name" : "package",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc26adf257f4513c.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

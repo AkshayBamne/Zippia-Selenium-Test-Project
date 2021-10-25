@@ -1,0 +1,86 @@
+{
+  "uid" : "76450226fd44c141",
+  "name" : "Moving to Top Colleges for Project Managers component",
+  "fullName" : "Career Main Page.Moving to Top Colleges for Project Managers component",
+  "historyId" : "f3a2ae5ae2ac11741ffbf5605e5fd687",
+  "time" : {
+    "start" : 1635166741076,
+    "stop" : 1635166752129,
+    "duration" : 11053
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1f236e68e984cab3",
+      "name" : "Console Logs",
+      "source" : "1f236e68e984cab3.html",
+      "type" : "text/html",
+      "size" : 258
+    }, {
+      "uid" : "6c04ead4227e425",
+      "name" : "Screenshot",
+      "source" : "6c04ead4227e425.png",
+      "type" : "image/png",
+      "size" : 49870
+    }, {
+      "uid" : "406259d85b1b580a",
+      "name" : "Console Logs",
+      "source" : "406259d85b1b580a.html",
+      "type" : "text/html",
+      "size" : 323
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Moving to Top Colleges for Project Managers component"
+  }, {
+    "name" : "package",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76450226fd44c141.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

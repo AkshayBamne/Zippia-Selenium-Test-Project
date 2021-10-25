@@ -1,0 +1,226 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Getting Salary Page Title",
+    "uid" : "e25419f4d7ab0017",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166606803,
+      "stop" : 1635166627309,
+      "duration" : 20506
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Getting Career Main page Title",
+    "uid" : "7b044e8b8722bfcc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166607001,
+      "stop" : 1635166627000,
+      "duration" : 19999
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Moving to Project Manager Demographics component",
+    "uid" : "e493cd94391ee368",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166627002,
+      "stop" : 1635166642780,
+      "duration" : 15778
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Moving to Average Project Manager Salary Component",
+    "uid" : "1cded0f9692bf604",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166627311,
+      "stop" : 1635166646671,
+      "duration" : 19360
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Verifying Project Manager Demographics component Title",
+    "uid" : "a16da8be5d6e1bc9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166642780,
+      "stop" : 1635166655513,
+      "duration" : 12733
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Verifying Average Project Manager Salary component displayed fields",
+    "uid" : "c07aaf6b640e492f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166646672,
+      "stop" : 1635166664705,
+      "duration" : 18033
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Getting Gender wise percentage for Project Manager",
+    "uid" : "8dea81edb822adfb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166655514,
+      "stop" : 1635166673498,
+      "duration" : 17984
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Verifying Location filter for Average Project Manager Salary component",
+    "uid" : "f86ff42af0a3bbb7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166664706,
+      "stop" : 1635166683569,
+      "duration" : 18863
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Verifying Project Manager Compare Jobs filter",
+    "uid" : "fc26adf257f4513c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166673506,
+      "stop" : 1635166686588,
+      "duration" : 13082
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Verifying Industry filter for Average Project Manager Salary component",
+    "uid" : "766ed8e7daff034c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166683570,
+      "stop" : 1635166702234,
+      "duration" : 18664
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Comparing Jobs with Project Manager through Compare Jobs filter",
+    "uid" : "e5c6563c1cf2ab5b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166686588,
+      "stop" : 1635166710206,
+      "duration" : 23618
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Verifying Education filter for Average Project Manager Salary component",
+    "uid" : "27faf57fa6aa6d7d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166702235,
+      "stop" : 1635166718991,
+      "duration" : 16756
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Clearing Project Manager Compare Jobs filter",
+    "uid" : "b5c68fc1d87c0cac",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166710206,
+      "stop" : 1635166741075,
+      "duration" : 30869
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Moving to Top Colleges for Project Managers component",
+    "uid" : "76450226fd44c141",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166741076,
+      "stop" : 1635166752129,
+      "duration" : 11053
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Verifying Top Colleges for Project Managers Title",
+    "uid" : "fe72c990f683af8f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166752130,
+      "stop" : 1635166763977,
+      "duration" : 11847
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Verifying Top Colleges List for Project Managers",
+    "uid" : "58bb5dadacd78b88",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166763978,
+      "stop" : 1635166775007,
+      "duration" : 11029
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  }, {
+    "name" : "Verifying Top Colleges Details",
+    "uid" : "c6dcf551e046e0db",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1635166775008,
+      "stop" : 1635166788903,
+      "duration" : 13895
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-94.0.4606.81" ]
+  } ]
+}

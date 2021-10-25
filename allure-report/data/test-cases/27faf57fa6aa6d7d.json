@@ -1,0 +1,86 @@
+{
+  "uid" : "27faf57fa6aa6d7d",
+  "name" : "Verifying Education filter for Average Project Manager Salary component",
+  "fullName" : "Salary Page.Verifying Education filter for Average Project Manager Salary component",
+  "historyId" : "c129885f1e7fe0e313ecaafc8a5a6df9",
+  "time" : {
+    "start" : 1635166702235,
+    "stop" : 1635166718991,
+    "duration" : 16756
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4eba7f866cc4efc3",
+      "name" : "Console Logs",
+      "source" : "4eba7f866cc4efc3.html",
+      "type" : "text/html",
+      "size" : 265
+    }, {
+      "uid" : "5f5e85c19853b307",
+      "name" : "Screenshot",
+      "source" : "5f5e85c19853b307.png",
+      "type" : "image/png",
+      "size" : 86992
+    }, {
+      "uid" : "1236ee4250b2acc0",
+      "name" : "Console Logs",
+      "source" : "1236ee4250b2acc0.html",
+      "type" : "text/html",
+      "size" : 466
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Salary Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Salary Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying Education filter for Average Project Manager Salary component"
+  }, {
+    "name" : "package",
+    "value" : "Salary Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27faf57fa6aa6d7d.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

@@ -154,7 +154,7 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 60000,
+        timeout: 150000,
         // require: ['@babel/register']
         // require: ['@babel/register', './test/helpers/common.js']
         require: ['@babel/register']

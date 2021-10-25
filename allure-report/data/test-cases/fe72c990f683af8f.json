@@ -1,0 +1,86 @@
+{
+  "uid" : "fe72c990f683af8f",
+  "name" : "Verifying Top Colleges for Project Managers Title",
+  "fullName" : "Career Main Page.Verifying Top Colleges for Project Managers Title",
+  "historyId" : "efd7af50193c4887c72aa1eb30701afd",
+  "time" : {
+    "start" : 1635166752130,
+    "stop" : 1635166763977,
+    "duration" : 11847
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9de0d5e9c73f3fb8",
+      "name" : "Console Logs",
+      "source" : "9de0d5e9c73f3fb8.html",
+      "type" : "text/html",
+      "size" : 258
+    }, {
+      "uid" : "d72a3883cd7311ac",
+      "name" : "Screenshot",
+      "source" : "d72a3883cd7311ac.png",
+      "type" : "image/png",
+      "size" : 49870
+    }, {
+      "uid" : "642a6d64d71e001d",
+      "name" : "Console Logs",
+      "source" : "642a6d64d71e001d.html",
+      "type" : "text/html",
+      "size" : 373
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verifying Top Colleges for Project Managers Title"
+  }, {
+    "name" : "package",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fe72c990f683af8f.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

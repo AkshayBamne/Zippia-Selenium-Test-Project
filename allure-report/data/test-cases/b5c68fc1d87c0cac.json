@@ -1,0 +1,98 @@
+{
+  "uid" : "b5c68fc1d87c0cac",
+  "name" : "Clearing Project Manager Compare Jobs filter",
+  "fullName" : "Career Main Page.Clearing Project Manager Compare Jobs filter",
+  "historyId" : "dc384fec3e918d381a86910c99d7b9b1",
+  "time" : {
+    "start" : 1635166710206,
+    "stop" : 1635166741075,
+    "duration" : 30869
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e1b9c996f98b3a1d",
+      "name" : "Console Logs",
+      "source" : "e1b9c996f98b3a1d.html",
+      "type" : "text/html",
+      "size" : 258
+    }, {
+      "uid" : "f4615b4c89f6534a",
+      "name" : "Screenshot",
+      "source" : "f4615b4c89f6534a.png",
+      "type" : "image/png",
+      "size" : 28445
+    }, {
+      "uid" : "16d6fc1d0bba67aa",
+      "name" : "Screenshot",
+      "source" : "16d6fc1d0bba67aa.png",
+      "type" : "image/png",
+      "size" : 28445
+    }, {
+      "uid" : "3172c2d2505ebc8d",
+      "name" : "Screenshot",
+      "source" : "3172c2d2505ebc8d.png",
+      "type" : "image/png",
+      "size" : 28782
+    }, {
+      "uid" : "6c889584066fc985",
+      "name" : "Console Logs",
+      "source" : "6c889584066fc985.html",
+      "type" : "text/html",
+      "size" : 565
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testClass",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Clearing Project Manager Compare Jobs filter"
+  }, {
+    "name" : "package",
+    "value" : "Career Main Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b5c68fc1d87c0cac.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}
