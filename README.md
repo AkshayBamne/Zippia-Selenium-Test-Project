@@ -2,18 +2,24 @@
 Selenium test project for Zippia
 
 *Prerequisite:*
-1) Latest chrome browser: Make sure to have latest chrome browser installed on your local machine (Since the current framework configured to execute on chrome browser but we can have multiple browsers configuration by adding few configuration steps with which we can achieve cross browser testing.)
-2) Latest node.js: Install from the site - https://nodejs.org/en/ take the LTS version based on your Operating system (Once node is installed check node version by firing command to the terminal or cmd *node -version*)
+1) Latest chrome browser: Make sure to have latest chrome browser installed on your local machine (Since the current framework configured to execute on chrome browser but we can have multiple browsers configured by adding few configuration steps with which we can achieve cross browser testing.)
+2) Latest node.js: Install from the site - https://nodejs.org/en/ take the LTS version based on your Operating system (Once node is installed check node version by firing command to the terminal or cmd *node -*)
+![image](https://user-images.githubusercontent.com/43804328/138724920-3b0094fd-845e-4fe3-b84e-dd83d2dab3b8.png)
+
+3) Latest JDK: JDK is required for executing report. Follow installing JDK and Setting JAVA_HOME steps from document (https://www.oracle.com/webfolder/technetwork/tutorials/oraclecode/windows-hol-setup.pdf) and once its done check installed jdk verison by firing command to terminal or cmd *java --version*
+![image](https://user-images.githubusercontent.com/43804328/138724790-02ada9c3-b8b0-40a5-8fb2-90332aae3aa7.png)  
 
 
 *Run Some Sample Tests:*
 
 To execute the entire test suite in local machine, you can use below mentioned option: 
-1) To execute this project on local machine enter mentioned command to terminal:
-npm run test or npm test
-2) To view allure reports on browser enter mentioned command to terminal:
-npm run report
+1) To execute this project on local machine enter mentioned command to terminal by navigating to the root directory of project: npm run test or npm test
 
+![image](https://user-images.githubusercontent.com/43804328/138725204-2c4a0fdf-f439-4c09-9fc8-5c98c10de431.png)
+
+2) To view allure reports on browser enter mentioned command to terminal by navigating to the root directory of project: npm run report
+
+![image](https://user-images.githubusercontent.com/43804328/138725322-ef0de79c-a786-4e66-8652-be57d88a0e64.png)
 
 *Tech Stack:*
 1) Programming Language: JavaScript
