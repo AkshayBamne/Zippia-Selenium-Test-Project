@@ -54,7 +54,7 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 1,
+        maxInstances: 5,
         //
         browserName: 'chrome',
         acceptInsecureCerts: true
@@ -142,12 +142,22 @@ exports.config = {
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: [[
         
-        'allure', {outputDir: 'allure-results',
-        disableWebdriverStepsReporting: true,
-        // disableWebdriverStepsReporting: false,
-        disableWebdriverScreenshotsReporting: false,
-        addConsoleLogs: true        
-    }]],
+            'allure', {outputDir: 'allure-results',
+            disableWebdriverStepsReporting: true,
+            // disableWebdriverStepsReporting: false,
+            disableWebdriverScreenshotsReporting: false,
+            addConsoleLogs: true        
+            }, 
+        ],
+
+        [
+            'junit',
+            {
+                outputDir: './report',
+            },
+        ],
+
+    ],
     
     //
     // Options to be passed to Mocha.
